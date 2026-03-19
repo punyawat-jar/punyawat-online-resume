@@ -125,6 +125,16 @@ h1 {
   box-shadow: 0 10px 22px rgba(72, 219, 255, 0.22);
 }
 
+.read-more-link {
+  color: #48dbff;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.read-more-link:hover {
+  color: #007bff;
+}
+
 .btn--ghost { background: rgba(255, 255, 255, 0.03); }
 .btn:hover { transform: translateY(-2px); }
 

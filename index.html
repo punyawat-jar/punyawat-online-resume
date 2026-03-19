@@ -1,164 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Punyawat Jaroensiripong | AI & Data Resume</title>
-    <meta
-      name="description"
-      content="Online resume of Punyawat Jaroensiripong with AI/data-science themed project showcase."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <canvas id="particle-canvas" aria-hidden="true"></canvas>
-    <div class="ambient"></div>
-    <div class="ai-grid" aria-hidden="true"></div>
 
-    <header class="top-nav container reveal">
-      <a class="brand" href="index.html">Punyawat.ai</a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="https://github.com/punyawat-jar" target="_blank" rel="noreferrer">GitHub</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punyawat Jaroensiripong | AI & Data Resume</title>
+  <meta name="description" content="Online portfolio of Punyawat Jaroensiripong with project showcase." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <header class="hero container reveal">
-      <div class="hero__left">
-        <p class="pill">Open to opportunities</p>
-        <h1>Punyawat Jaroensiripong</h1>
-        <p class="subtitle" id="animated-role" aria-live="polite"></p>
-        <p class="summary">
-          Computer Engineering graduate with hands-on experience in AI-driven
-          solutions, Azure cloud systems, and cybersecurity analytics. Currently
-          pursuing a Master's in Information Science in Japan.
-        </p>
-        <div class="hero__cta">
-          <a class="btn btn--solid" href="projects.html">Explore Project Showcase</a>
-          <a class="btn btn--ghost" href="https://github.com/punyawat-jar" target="_blank" rel="noreferrer">View GitHub</a>
-        </div>
-        <ul class="contact-list">
-          <li>📧 punyawat.jar@gmail.com</li>
-          <li>📍 Based in Japan / Thailand</li>
-        </ul>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+  <div class="ambient"></div>
+  <div class="ai-grid" aria-hidden="true"></div>
+
+  <header class="top-nav container reveal">
+    <a class="brand" href="index.html">Punyawat.ai</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="https://github.com/punyawat-jar" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <header class="hero container reveal">
+    <div class="hero__left">
+      <p class="pill">Open to opportunities</p>
+      <p class="pill">Programming</p>
+
+      <h1>Punyawat Jaroensiripong</h1>
+      <p class="subtitle" id="animated-role" aria-live="polite"></p>
+      <p class="summary">
+        Computer Engineering graduate with hands-on experience in AI-driven
+        solutions, Azure cloud systems, and cybersecurity analytics. Currently
+        pursuing a Master's in Information Science in Japan.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--solid" href="projects.html">Explore Project Showcase</a>
+        <a class="btn btn--ghost" href="https://github.com/punyawat-jar" target="_blank" rel="noreferrer">View
+          GitHub</a>
       </div>
-      <div class="hero__right">
-        <figure class="profile-card">
-          <!-- You can replace this with a GIF, e.g. assets/profile.gif -->
-          <img src="assets/profile-placeholder.svg" alt="Profile placeholder or GIF profile" />
-          <figcaption>GIF supported: replace src with assets/your-profile.gif</figcaption>
-        </figure>
+      <ul class="contact-list">
+        <li>✉️ punyawat.jar@gmail.com</li>
+        <li>📍 Based in Kyoto, Japan / Bangkok, Thailand</li>
+      </ul>
+    </div>
+    <div class="hero__right">
+      <figure class="profile-card">
+        <img src="assets/profile.gif" alt="Punyawat's Profile" />
+        <figcaption>MR. Punyawat Jaroensiripong</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section class="card reveal" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <article></article>
+        <article>
+          <h3>Kyoto Institute of Technology</h3>
+          <p class="meta">Master of Information Science · Computer Engineering · GPAX 3.71</p>
+          <p>Aug 2025 – Present · Japan</p>
+        </article>
+        <article>
+          <h3>Mahidol University</h3>
+          <p class="meta">Bachelor of Engineering · Computer Engineering · GPAX 3.74</p>
+          <p>Aug 2020 – Jun 2024 · Thailand</p>
+        </article>
       </div>
-    </header>
+    </section>
 
-    <main class="container grid">
-      <section class="card reveal" id="education">
-        <h2>Education</h2>
-        <div class="timeline">
-          <article>
-            <h3>Kyoto Institute of Technology</h3>
-            <p class="meta">Master of Information Science · Computer Engineering · GPAX 3.71</p>
-            <p>Aug 2025 – Present · Japan</p>
-          </article>
-          <article>
-            <h3>Mahidol University</h3>
-            <p class="meta">Bachelor of Engineering · Computer Engineering · GPAX 3.74</p>
-            <p>Aug 2020 – Jun 2024 · Thailand</p>
-          </article>
+    <section class="card reveal" id="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <article></article>
+        <article>
+          <h3>Mekha V Co., Ltd. (PTT Group)</h3>
+          <p class="meta">Business Analyst · Cloud Architect · AI Engineer</p>
+          <p>Aug 2024 – Aug 2025 · Thailand</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <ul>
+              <li>Collected business requirements across internal PTT group teams for AI solution deployment.</li>
+              <li>Led data science delivery on Azure using Azure OpenAI, App Service, and Azure DevOps.</li>
+              <li>Coordinated business and technical teams to improve adoption and measurable process efficiency.</li>
+            </ul>
+          </details>
+        </article>
+        <article>
+          <h3>SCB DATAX Co., Ltd.</h3>
+          <p class="meta">Security Analyst Intern (Co-operative Education)</p>
+          <p>Aug 2023 – Dec 2023 · Thailand</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <ul>
+              <li>Developed security management workflows from network traffic analysis with Azure Sentinel.</li>
+              <li>Created custom awareness sessions and recurring threat monitoring reports for teams.</li>
+            </ul>
+          </details>
+        </article>
+        <article>
+          <h3>JAIST – Kazunori Kotani's Laboratory</h3>
+          <p class="meta">Research Student Internship</p>
+          <p>May 2023 – Aug 2023 · Japan</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <ul>
+              <li>Built a sequential image-classification model for cyber-attack detection in SOC workflows.</li>
+              <li>Reached 92.4% detection accuracy and contributed to research publication output.</li>
+            </ul>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section class="card reveal" id="projects-teaser">
+      <h2>Project Showcase</h2>
+      <p class="muted">The public project and publication</p>
+      <div class="timeline">
+        <article></article>
+        <article>
+          <a class="meta read-more-link" href = "project-cyber-hilbert.html">Cybersecurity Intrusion Detection (VISAPP 2024)</a>
+        </article>
+        <article>
+          <a class="meta read-more-link" href = "project-ai-chatbot.html">AI Chatbot for Customer Support</a>
+        </article>
+        <article></article>
+      </div>
+
+      <a href="projects.html" class="read-more-link">Read more -></a>
+    </section>
+
+    <section class="card reveal" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-groups timeline">
+        <article></article>
+        <div>
+          <h3>Programming</h3>
+          <p>Python, Java, C, JavaScript</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <p>Building data pipelines, model training scripts, API integration code, and deployment
+              helpers.</p>
+          </details>
+          <br>
         </div>
-      </section>
-
-      <section class="card reveal" id="experience">
-        <h2>Work Experience</h2>
-        <div class="timeline">
-          <article>
-            <h3>Mekha V Co., Ltd. (PTT Group)</h3>
-            <p class="meta">Business Analyst · Cloud Architect · AI Engineer</p>
-            <p>Aug 2024 – Aug 2025 · Thailand</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <ul>
-                <li>Collected business requirements across internal PTT group teams for AI solution deployment.</li>
-                <li>Led data science delivery on Azure using Azure OpenAI, App Service, and Azure DevOps.</li>
-                <li>Coordinated business and technical teams to improve adoption and measurable process efficiency.</li>
-              </ul>
-            </details>
-          </article>
-          <article>
-            <h3>SCB DATAX Co., Ltd.</h3>
-            <p class="meta">Security Analyst Intern (Co-operative Education)</p>
-            <p>Aug 2023 – Dec 2023 · Thailand</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <ul>
-                <li>Developed security management workflows from network traffic analysis with Azure Sentinel.</li>
-                <li>Created custom awareness sessions and recurring threat monitoring reports for teams.</li>
-              </ul>
-            </details>
-          </article>
-          <article>
-            <h3>JAIST – Kazunori Kotani's Laboratory</h3>
-            <p class="meta">Research Student Internship</p>
-            <p>May 2023 – Aug 2023 · Japan</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <ul>
-                <li>Built a sequential image-classification model for cyber-attack detection in SOC workflows.</li>
-                <li>Reached 92.4% detection accuracy and contributed to research publication output.</li>
-              </ul>
-            </details>
-          </article>
+        <article></article>
+        <div>
+          <h3>AI / ML Stack</h3>
+          <p>scikit-learn, TensorFlow, OpenMMLab, PaddlePaddle</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <p>Hands-on with image classification/segmentation, model evaluation, feature engineering, and experiment
+              tracking.</p>
+          </details>
+          <br>
         </div>
-      </section>
-
-      <section class="card reveal" id="projects-teaser">
-        <h2>Project Showcase</h2>
-        <p class="muted">Dedicated project pages with architecture, datasets, methods, and outcomes.</p>
-        <a class="btn btn--solid" href="projects.html">Open Project Pages</a>
-      </section>
-
-      <section class="card reveal" id="skills">
-        <h2>Skills</h2>
-        <div class="skill-groups">
-          <div>
-            <h3>Programming</h3>
-            <p>Python, Java, C, JavaScript</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <p>Comfortable building data pipelines, model training scripts, API integration code, and deployment helpers.</p>
-            </details>
-          </div>
-          <div>
-            <h3>AI / ML Stack</h3>
-            <p>scikit-learn, TensorFlow, OpenMMLab, PaddlePaddle</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <p>Hands-on with image classification/segmentation, model evaluation, feature engineering, and experiment tracking.</p>
-            </details>
-          </div>
-          <div>
-            <h3>Cloud</h3>
-            <p>Azure AI Foundry, Azure ML, App Service, Logic Apps, Key Vault</p>
-            <details class="read-more">
-              <summary>Read more</summary>
-              <p>Experience with cloud-native AI app setup, CI/CD workflows, environment security, and service orchestration.</p>
-            </details>
-          </div>
+        <article></article>
+        <div>
+          <h3>Cloud</h3>
+          <p>Azure AI Foundry, Azure ML, App Service, Logic Apps, Key Vault</p>
+          <details class="read-more">
+            <summary>Read more</summary>
+            <p>Experience with cloud-native AI app setup, CI/CD workflows, environment security, and service
+              orchestration.</p>
+          </details>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer class="container footer">
-      <p>© <span id="year"></span> Punyawat Jaroensiripong · AI/Data Science Theme</p>
-    </footer>
+  <footer class="container footer">
+    <p>© <span id="year"></span> Punyawat Jaroensiripong · AI/Data Science Theme</p>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>

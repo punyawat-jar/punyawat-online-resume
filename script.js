@@ -3,7 +3,7 @@ if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
 
-const roles = ['Business Analyst', 'Cloud Architect', 'AI Engineer', 'Security Analyst'];
+const roles = ['Business Analyst', 'Cloud Architect', 'AI Engineer', 'Security Analyst', 'Data Scientist', 'Software Developer'];
 const roleElement = document.getElementById('animated-role');
 
 if (roleElement) {

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Punyawat.ai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <div class="ambient"></div>
+    <div class="ai-grid" aria-hidden="true"></div>
+
+    <header class="top-nav container reveal">
+      <a class="brand" href="index.html">Punyawat.ai</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="https://github.com/punyawat-jar" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main class="container project-grid">
+      <section class="card reveal">
+        <h1>Project & Code Showcase</h1>
+        <p class="muted">Select a project to view detailed problem statement, pipeline, tech stack, and outcomes.</p>
+      </section>
+
+      <a class="card project-link reveal" href="project-cyber-hilbert.html">
+        <h2>Cybersecurity Intrusion Detection (VISAPP 2024)</h2>
+        <p>Image-classification approach with Hilbert Curve transformation for network intrusion detection.</p>
+        <span>Open full project →</span>
+      </a>
+
+      <a class="card project-link reveal" href="project-liver-segmentation.html">
+        <h2>Liver Disease Image Detection by Segmentation</h2>
+        <p>Medical image segmentation workflow for disease region detection and analysis.</p>
+        <span>Open full project →</span>
+      </a>
+
+      <a class="card project-link reveal" href="project-adaptive-cyber.html">
+        <h2>Adaptive Cybersecurity Incident Detection</h2>
+        <p>Machine-learning based adaptive alerting and incident triage for SOC operations.</p>
+        <span>Open full project →</span>
+      </a>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span id="year"></span> Punyawat Jaroensiripong</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

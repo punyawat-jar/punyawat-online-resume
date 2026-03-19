@@ -1,6 +1,14 @@
 # Punyawat Online Resume
 
-A modern, single-page online resume ready to host on **GitHub Pages**.
+A modern, AI/data-science themed **multi-page** online resume ready for GitHub Pages.
+
+## Pages
+
+- `index.html` — main profile and resume summary
+- `projects.html` — project showcase directory
+- `project-cyber-hilbert.html` — intrusion detection project details
+- `project-liver-segmentation.html` — liver segmentation project details
+- `project-adaptive-cyber.html` — adaptive cybersecurity project details
 
 ## 🚀 Quick Deploy on GitHub Pages
 
@@ -10,40 +18,29 @@ A modern, single-page online resume ready to host on **GitHub Pages**.
    - **Source**: Deploy from a branch
    - **Branch**: `main` (or your default branch), folder `/ (root)`
 4. Save and wait for deployment.
-5. Your resume will be available at:
-   - `https://<your-username>.github.io/<repo-name>/`
+5. Open: `https://<your-username>.github.io/<repo-name>/`
 
-## 🖼️ Change your profile photo
+## 🖼️ Profile picture (GIF supported)
 
-The page currently uses a placeholder image at:
+You can use static images (`.png`, `.jpg`, `.svg`) **or animated GIF** (`.gif`).
 
-- `assets/profile-placeholder.svg`
-
-To use your own picture:
-
-1. Add your image file to `assets/` (for example: `assets/punyawat.jpg`).
-2. Open `index.html`.
-3. Replace the image source in the profile card:
+1. Put your file in `assets/` (example: `assets/profile.gif`).
+2. In `index.html`, replace:
 
 ```html
-<img src="assets/profile-placeholder.svg" alt="Profile placeholder" />
+<img src="assets/profile-placeholder.svg" alt="Profile placeholder or GIF profile" />
 ```
 
 with:
 
 ```html
-<img src="assets/punyawat.jpg" alt="Punyawat Jaroensiripong" />
+<img src="assets/profile.gif" alt="Punyawat Jaroensiripong profile" />
 ```
 
-## ✏️ Customize content
+## ✨ Interactive effects
 
-All resume sections are in `index.html`:
-
-- Header / contact
-- Education
-- Work Experience
-- Projects & Research
-- Skills
-- Certificates & Events
-
-Styling is in `styles.css`, and a small script that sets the footer year is in `script.js`.
+- Typing animation for role titles
+- Scroll reveal animation for sections
+- Particle background canvas
+- Animated training metric bars on project detail pages
+- AI-style grid + ambient glow theme
